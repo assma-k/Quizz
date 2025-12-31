@@ -1,0 +1,26 @@
+{
+  "name": "quizz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "univers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./css/output.css --watch",
+    "build": "node node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./css/output.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assma-k/Quizz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/assma-k/Quizz/issues"
+  },
+  "homepage": "https://github.com/assma-k/Quizz#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}

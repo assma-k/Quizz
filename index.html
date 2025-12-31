@@ -4,26 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz</title>
+    <link href="./css/output.css" rel="stylesheet">
   </head>
   <body>
-    <script src="script.js"></script>
     <h1>Bienvenue sur le Quizz thème zelda !</h1>
     <p>Choisissez un thème pour commencer :</p>
 
-      
-        <button name="theme" id="perso">
-        Personnages
-        </button>
+    <button id="jouer" class="">jouer</button>
+      <div id="choix" class="hidden">
+        <button name="theme" id="perso">Personnages</button>
+
+        <button name="theme" id="chrono">Chronologie</button>
+
+        <button name="theme" id="univers">Univers</button>
+      </div>
     
-      
-        <button name="theme" id="chrono">
-        Chronologie
-        </button>
-      
-      
-        <button name="theme" id="univers">
-        Univers
-        </button>
-     
+    <script src="script.js"></script>
   </body>
 </html>
