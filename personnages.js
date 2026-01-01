@@ -1,5 +1,6 @@
 let questions = [];
-
+let current = 0;
+let score = 0;
 fetch("questions.php?theme=personnages")
   .then((reponse) => reponse.json())
   .then((data) => {
@@ -16,6 +17,7 @@ fetch("questions.php?theme=personnages")
         if (current < questions.length) {
           afficheQuest();
         } else {
+            fetch(`save_score.php?theme=personnages&score=${score}&total=${questions.length}`);
           document.getElementById(
             "contenue"
           ).innerHTML = `<h2>Quiz terminé ! score : ${score} /${questions.length}</h2>`;
@@ -25,15 +27,14 @@ fetch("questions.php?theme=personnages")
   })
   .catch((error) => console.error("Erreur :", error));
 
-let current = 0;
-let score = 0;
+
 
 function afficheQuest() {
   document.getElementById("question").textContent = questions[current].question;
-  document.getElementById("reponse1").textContent =
+  document.getElementById("reponse0").textContent =
     questions[current].reponse[0];
-  document.getElementById("reponse2").textContent =
+  document.getElementById("reponse1").textContent =
     questions[current].reponse[1];
-  document.getElementById("reponse3").textContent =
+  document.getElementById("reponse2").textContent =
     questions[current].reponse[2];
 }

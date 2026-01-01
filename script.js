@@ -23,5 +23,29 @@ document.addEventListener("DOMContentLoaded", () =>{
   });
 });
 
+function afficheScores() {
+  const cookies = document.cookie.split(";")
+  console.log("cookies :", cookies);
+  const scoreP = cookies.find(c => c.startsWith("score_personnages"));
+  if (scoreP){
+    const V = scoreP.split("=")[1];
+    const valeurDecodee = decodeURIComponent(V);
+    document.getElementById("score-personnages").textContent = valeurDecodee;
+  }
 
+   const scoreU = cookies.find(c => c.startsWith("score_univers"));
+  if (scoreU){
+    const V = scoreU.split("=")[1];
+    const valeurDecodee = decodeURIComponent(V);
+    document.getElementById("score-univers").textContent = valeurDecodee;
+  }
+
+   const scoreC = cookies.find(c => c.startsWith("score_chronologies"));
+  if (scoreC){
+    const V = scoreC.split("=")[1];
+    const valeurDecodee = decodeURIComponent(V);
+    document.getElementById("score-chronologies").textContent = valeurDecodee;
+  }
+}
+afficheScores();
 

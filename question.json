@@ -1,175 +1,241 @@
 {
   "personnages": [
     {
-      "question": "Quel est le véritable nom de la princesse Zelda dans Skyward Sword ?",
-      "reponse": ["Zelda", "Impa", "Hylia"],
-      "bonne": 0
-    },
-    {
-      "question": "Qui est le principal antagoniste récurrent de la saga ?",
-      "reponse": ["Vaati", "Ganon", "Majora"],
-      "bonne": 1
-    },
-    {
-      "question": "Quel est le nom du compagnon de Link dans Ocarina of Time ?",
-      "reponse": ["Midna", "Navi", "Fi"],
-      "bonne": 1
-    },
-    {
-      "question": "Quel personnage est le chef des Gorons dans Breath of the Wild ?",
-      "reponse": ["Daruk", "Yunobo", "Goron bleu"],
-      "bonne": 1
-    },
-    {
-      "question": "Qui est Impa ?",
+      "question": "Quel est le rôle de Zelda dans Skyward Sword ?",
       "reponse": [
-        "Une déesse",
-        "Une Sheikah protectrice de Zelda",
-        "Une Gerudo"
+        "Princesse d’Hyrule",
+        "Réincarnation d’Hylia",
+        "Sage de la sagesse"
       ],
       "bonne": 1
     },
     {
-      "question": "Quel est le nom du marchand masqué dans Majora’s Mask ?",
-      "reponse": ["Skull Kid", "Happy Mask Salesman", "Tingle"],
+      "question": "Quel compagnon accompagne Link dans Majora’s Mask ?",
+      "reponse": ["Midna", "Tatl", "Navi"],
       "bonne": 1
     },
     {
-      "question": "Quel peuple vit principalement dans le désert Gerudo ?",
-      "reponse": ["Les Sheikahs", "Les Zoras", "Les Gerudos"],
+      "question": "Quel peuple appartient Ganondorf ?",
+      "reponse": ["Sheikah", "Hylien", "Gerudo"],
       "bonne": 2
     },
     {
-      "question": "Qui est Midna ?",
+      "question": "Qui est Midna au début de Twilight Princess ?",
+      "reponse": ["Une fée", "Une déesse", "Une princesse maudite"],
+      "bonne": 2
+    },
+    {
+      "question": "Quel personnage succède à Daruk chez les Gorons ?",
+      "reponse": ["Darmani", "Yunobo", "Rudania"],
+      "bonne": 1
+    },
+    {
+      "question": "Quel antagoniste est lié au masque de Majora ?",
+      "reponse": ["Vaati", "Ganon", "Skull Kid"],
+      "bonne": 2
+    },
+    {
+      "question": "Quel est le rôle d’Impa dans Breath of the Wild ?",
       "reponse": [
-        "Princesse du Royaume du Crépuscule",
-        "Une fée",
-        "Une sorcière"
+        "Gardienne du savoir Sheikah",
+        "Chef Gerudo",
+        "Sage de l’ombre"
       ],
       "bonne": 0
     },
     {
-      "question": "Quel est le nom du héros incarné par le joueur ?",
+      "question": "Quel personnage est le roi d’Hyrule dans Wind Waker ?",
+      "reponse": ["Kaepora Gaebora", "Daphnes Nohansen Hyrule", "Rauru"],
+      "bonne": 1
+    },
+    {
+      "question": "Quel être guide Link dans Skyward Sword ?",
+      "reponse": ["Navi", "Tatl", "Fi"],
+      "bonne": 2
+    },
+    {
+      "question": "Quel personnage est lié à la Triforce du Courage ?",
       "reponse": ["Zelda", "Ganon", "Link"],
       "bonne": 2
     },
     {
-      "question": "Quel personnage est obsédé par les rubis ?",
-      "reponse": ["Beedle", "Tingle", "Ganondorf"],
+      "question": "Quel Sage est incarné par Rauru dans Ocarina of Time ?",
+      "reponse": ["Sage de la Lumière", "Sage du Temps", "Sage de la Sagesse"],
+      "bonne": 0
+    },
+    {
+      "question": "Quel est le lien entre Kaepora Gaebora et Rauru ?",
+      "reponse": [
+        "Ils sont ennemis",
+        "Ils sont la même entité",
+        "Ils sont frères"
+      ],
+      "bonne": 1
+    },
+    {
+      "question": "Quel personnage est à l’origine de la malédiction du Royaume du Crépuscule ?",
+      "reponse": ["Zant", "Ganondorf", "Midna"],
       "bonne": 1
     }
   ],
 
   "univers": [
     {
-      "question": "Quelle est l’arme emblématique de Link ?",
+      "question": "Quelle Triforce est associée à Ganon ?",
+      "reponse": ["Sagesse", "Force", "Courage"],
+      "bonne": 1
+    },
+    {
+      "question": "Quel objet permet de contrôler le vent dans Wind Waker ?",
+      "reponse": ["Ocarina", "Bâton du Vent", "Feuille Mojo"],
+      "bonne": 1
+    },
+    {
+      "question": "Quel est le nom du village central dans Majora’s Mask ?",
+      "reponse": ["Cocorico", "Hyrule-Castle", "Bourg-Clocher"],
+      "bonne": 2
+    },
+    {
+      "question": "Quel masque permet à Link de devenir un Goron ?",
+      "reponse": ["Masque Goron", "Masque de pierre", "Masque de Darmani"],
+      "bonne": 2
+    },
+    {
+      "question": "Quel est le rôle principal de la Master Sword ?",
       "reponse": [
-        "L’épée de feu",
-        "L’épée de légende (Master Sword)",
-        "L’épée royale"
+        "Contrôler le temps",
+        "Sceller le mal",
+        "Donner l’immortalité"
       ],
       "bonne": 1
     },
     {
-      "question": "Que représentent les Triforces ?",
+      "question": "Quel peuple est lié à la technologie antique ?",
+      "reponse": ["Zoras", "Hyliens", "Sheikahs"],
+      "bonne": 2
+    },
+    {
+      "question": "Quel est le désert principal d’Hyrule ?",
+      "reponse": ["Désert du Temps", "Désert Gerudo", "Désert de Lanelle"],
+      "bonne": 1
+    },
+    {
+      "question": "Quel objet est indispensable pour voyager dans le temps ?",
+      "reponse": ["Ocarina du Temps", "Harpe des Déesses", "Master Sword"],
+      "bonne": 0
+    },
+    {
+      "question": "Quel ennemi représente la haine éternelle ?",
+      "reponse": ["Majora", "Demise", "Ganon"],
+      "bonne": 1
+    },
+    {
+      "question": "Quel lieu est protégé par l’Arbre Mojo ?",
+      "reponse": ["Plaine d’Hyrule", "Forêt Kokiri", "Montagne de la Mort"],
+      "bonne": 1
+    },
+    {
+      "question": "Quel est le véritable nom de l’ennemi originel incarnant le mal absolu ?",
+      "reponse": ["Ganon", "Demise", "Majora"],
+      "bonne": 1
+    },
+    {
+      "question": "Quel objet est nécessaire pour révéler la véritable forme de certains ennemis ?",
       "reponse": [
-        "Courage, Force et Sagesse",
-        "Vie, Mort et Destin",
-        "Feu, Eau et Vent"
+        "L’œil de vérité",
+        "La lentille Sheikah",
+        "Le masque du héros"
       ],
       "bonne": 0
     },
     {
-      "question": "Où repose généralement la Master Sword ?",
-      "reponse": ["Dans un volcan", "Dans un socle sacré", "Dans un château"],
+      "question": "Dans Majora’s Mask, quel objet est nécessaire pour traverser les eaux dangereuses de la Vallée des Épaves sans subir de dégâts ?",
+      "reponse": ["Masque Zora", "Palmes Zora", "Bottes de fer"],
       "bonne": 1
     },
     {
-      "question": "Quel objet permet à Link de tirer à distance ?",
-      "reponse": ["Le boomerang", "L’arc", "La bombe"],
-      "bonne": 1
-    },
-    {
-      "question": "Quel est le royaume principal de la saga ?",
-      "reponse": ["Termina", "Hyrule", "Lorule"],
-      "bonne": 1
-    },
-    {
-      "question": "À quoi servent les rubis ?",
-      "reponse": ["Sauvegarder", "Acheter des objets", "Se téléporter"],
-      "bonne": 1
-    },
-    {
-      "question": "Quel est le temple souvent associé à l’eau ?",
-      "reponse": ["Temple de la forêt", "Temple de l’eau", "Temple de l’ombre"],
-      "bonne": 1
-    },
-    {
-      "question": "Quel objet permet de planer dans Breath of the Wild ?",
-      "reponse": ["La feuille Mojo", "Le parapente", "Les bottes de Pégase"],
-      "bonne": 1
-    },
-    {
-      "question": "Quel peuple vit dans l’eau ?",
-      "reponse": ["Gorons", "Zoras", "Sheikahs"],
-      "bonne": 1
-    },
-    {
-      "question": "Que sont les Korogus ?",
-      "reponse": ["Des esprits de la forêt", "Des ennemis", "Des marchands"],
+      "question": "Quel objet rare permet à Link de sonder le fond des abysses ou de détecter les coffres cachés sous l’eau dans Wind Waker ?",
+      "reponse": ["Boussole", "Grapple Hook", "Harpe de l’Île"],
       "bonne": 0
     }
   ],
 
   "chronologies": [
     {
-      "question": "Quel est le premier jeu de la saga Zelda sorti en 1986 ?",
-      "reponse": ["A Link to the Past", "Zelda II", "The Legend of Zelda"],
+      "question": "Quel jeu suit directement Ocarina of Time dans la timeline enfant ?",
+      "reponse": ["Wind Waker", "Majora’s Mask", "Twilight Princess"],
+      "bonne": 1
+    },
+    {
+      "question": "Quel Zelda introduit la navigation libre sur une carte ouverte ?",
+      "reponse": ["Twilight Princess", "Wind Waker", "Breath of the Wild"],
       "bonne": 2
     },
     {
-      "question": "Dans quel jeu apparaît pour la première fois Ganondorf ?",
-      "reponse": ["Ocarina of Time", "Twilight Princess", "Wind Waker"],
+      "question": "Quel jeu utilise un cycle temporel comme mécanique centrale ?",
+      "reponse": ["Oracle of Ages", "Majora’s Mask", "Skyward Sword"],
+      "bonne": 1
+    },
+    {
+      "question": "Quel Zelda se déroule principalement dans le ciel ?",
+      "reponse": ["Skyward Sword", "Wind Waker", "Breath of the Wild"],
       "bonne": 0
     },
     {
-      "question": "Quel jeu se déroule principalement sur une mer ?",
-      "reponse": ["Skyward Sword", "Wind Waker", "Breath of the Wild"],
+      "question": "Quel jeu se situe dans un royaume miroir d’Hyrule ?",
+      "reponse": [
+        "Tri Force Heroes",
+        "A Link Between Worlds",
+        "Link’s Awakening"
+      ],
       "bonne": 1
     },
     {
-      "question": "Quel jeu est une suite directe de Breath of the Wild ?",
-      "reponse": ["Age of Calamity", "Tears of the Kingdom", "Skyward Sword"],
+      "question": "Quel est le premier Zelda entièrement en 3D ?",
+      "reponse": ["Majora’s Mask", "Ocarina of Time", "Twilight Princess"],
       "bonne": 1
     },
     {
-      "question": "Dans quel jeu Link peut-il se transformer en loup ?",
-      "reponse": ["Majora’s Mask", "Twilight Princess", "Skyward Sword"],
-      "bonne": 1
+      "question": "Quel jeu introduit les sanctuaires Sheikah ?",
+      "reponse": [
+        "Tears of the Kingdom",
+        "Skyward Sword",
+        "Breath of the Wild"
+      ],
+      "bonne": 2
     },
     {
-      "question": "Quel jeu est connu pour son système de masques ?",
-      "reponse": ["Ocarina of Time", "Majora’s Mask", "Minish Cap"],
-      "bonne": 1
+      "question": "Quel Zelda est une suite directe de Wind Waker ?",
+      "reponse": ["Phantom Hourglass", "Spirit Tracks", "Skyward Sword"],
+      "bonne": 0
     },
     {
-      "question": "Quel jeu se déroule dans le ciel ?",
-      "reponse": ["Breath of the Wild", "Skyward Sword", "Twilight Princess"],
-      "bonne": 1
+      "question": "Quel jeu raconte l’origine de la Master Sword ?",
+      "reponse": ["Ocarina of Time", "Breath of the Wild", "Skyward Sword"],
+      "bonne": 2
     },
     {
-      "question": "Quel est le style graphique de Wind Waker ?",
-      "reponse": ["Réaliste", "Cell-shading", "Pixel art"],
-      "bonne": 1
+      "question": "Quel Zelda se déroule hors du royaume d’Hyrule ?",
+      "reponse": ["Majora’s Mask", "Skyward Sword", "Twilight Princess"],
+      "bonne": 0
     },
     {
-      "question": "Quel jeu Zelda est sorti sur Nintendo Switch en 2017 ?",
-      "reponse": ["Skyward Sword", "Breath of the Wild", "Link’s Awakening"],
-      "bonne": 1
+      "question": "Quel événement provoque la création des trois timelines Zelda ?",
+      "reponse": [
+        "La défaite de Ganon",
+        "Le voyage temporel de Link",
+        "La chute du héros"
+      ],
+      "bonne": 2
     },
     {
-      "question": "Quel jeu se déroule sur l’île du Poisson-Rêve ?",
-      "reponse": ["Link’s Awakening", "Oracle of Ages", "Minish Cap"],
+      "question": "Quel Zelda se situe dans la timeline du Héros Déchu ?",
+      "reponse": ["A Link to the Past", "Wind Waker", "Twilight Princess"],
+      "bonne": 0
+    },
+    {
+      "question": "Quel jeu est chronologiquement le PREMIER dans la saga ?",
+      "reponse": ["Skyward Sword", "Ocarina of Time", "The Minish Cap"],
       "bonne": 0
     }
   ]
