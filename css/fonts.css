@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Hylia64";
+  src: url("../ressource/Hylia-Serif-Beta-v0-009/HyliaSerifBeta-Regular.otf")
+    format("opentype");
+}
+
+body{
+text-shadow: 2px 2px 2px black;
+
+}

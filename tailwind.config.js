@@ -7,7 +7,14 @@ module.exports = {
     "./src/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+       fontFamily: {
+        hylia: ['Hylia64'],
+      },
+      backgroundImage: {
+        zelda: "url('../ressource/zelda_bg.gif')",
+      },
+    },
   },
   plugins: [],
 }
