@@ -4,7 +4,11 @@
     format("opentype");
 }
 
-body{
+body {
 text-shadow: 2px 2px 2px black;
 
+}
+
+#jouer{
+  text-shadow: 2px 2px 2px black !important;
 }
