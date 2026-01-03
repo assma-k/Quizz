@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -562,8 +566,32 @@ video {
   display: none;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-60 {
+  height: 15rem;
+}
+
+.h-auto {
+  height: auto;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-col {
@@ -578,6 +606,18 @@ video {
   justify-content: center;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.bg-indigo-950\/80 {
+  background-color: rgb(30 27 75 / 0.8);
+}
+
 .bg-zelda {
   background-image: url('../ressource/zelda_bg.gif');
 }
@@ -586,12 +626,16 @@ video {
   background-size: cover;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
 
-.p-2 {
-  padding: 0.5rem;
+.p-4 {
+  padding: 1rem;
 }
 
 .text-center {
@@ -600,6 +644,11 @@ video {
 
 .font-hylia {
   font-family: Hylia64;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-5xl {
@@ -615,6 +664,11 @@ video {
 .text-red-900 {
   --tw-text-opacity: 1;
   color: rgb(127 29 29 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .text-yellow-500 {

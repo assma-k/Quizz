@@ -38,3 +38,27 @@ function afficheQuest() {
   document.getElementById("reponse2").textContent =
     questions[current].reponse[2];
 }
+
+function volume() {
+  var audi = document.getElementById("audio");
+  audi.volume = 0.1;
+}
+
+volume();
+
+function player() {
+  const pl = document.getElementById("player");
+  const audi = document.getElementById("audio");
+  let mute = false;
+  pl.addEventListener("click", () => {
+    if (mute) {
+      audi.volume = 0.1;
+      mute = false;
+    } else {
+      audi.volume = 0;
+      mute = true;
+    }
+  });
+}
+player();
+

@@ -9,6 +9,6 @@ text-shadow: 2px 2px 2px black;
 
 }
 
-#jouer{
+#jouer, #perso, #chrono, #univers{
   text-shadow: 2px 2px 2px black !important;
 }

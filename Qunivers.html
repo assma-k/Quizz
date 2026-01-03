@@ -7,18 +7,24 @@
     <link href="./css/output.css" rel="stylesheet">
      <link href="./css/fonts.css"  rel="stylesheet">
   </head>
-  <body class="font-hylia bg-zelda bg-cover text-yellow-500 flex flex-col justify-center items-center text-center h-screen">
-    <h1>Univers</h1>
-    <div id="contenue">
+  <body class="font-hylia bg-zelda bg-cover text-white flex flex-col justify-center items-center text-center h-screen">
+    <h1 class="text-5xl  text-red-900">Univers</h1>
+    <div id="contenue" class="flex flex-col w-full justify-center items-center h-auto">
+      <div class="bg-indigo-950/80 w-2/4 h-60 rounded-3xl justify-center items-center flex mb-4">
       <h2 id="question"></h2>
-      <button class="reponse" id="reponse0"></button>
-      <button class="reponse" id="reponse1"></button>
-      <button class="reponse" id="reponse2"></button>
+      </div>
+      <button class="reponse bg-indigo-950/80 rounded-xl w-2/5 h-20 mb-4" id="reponse0"></button>
+      <button class="reponse bg-indigo-950/80 rounded-xl w-2/5 h-20 mb-4" id="reponse1"></button>
+      <button class="reponse bg-indigo-950/80 rounded-xl w-2/5 h-20 mb-4" id="reponse2"></button>
     </div>
 
     <p id="score"></p>
     <p><a href="index.html">Retour au menu</a></p>
-
+        <audio class="hidden" id="audio" src="./ressource/fairies-fountain.mp3" type="audio/mp3" controls autoplay loop>
+</audio>
+<div>
+  <button id="player">I I</button>
+</div>
     <script src="univers.js"></script>
   </body>
 </html>

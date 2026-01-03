@@ -8,16 +8,16 @@
     <link href="./css/fonts.css"  rel="stylesheet">
   </head>
   <body class="font-hylia bg-zelda bg-cover text-yellow-500 flex flex-col justify-center items-center text-center h-screen">
-    <h1 class="text-7xl  text-red-900">Bienvenue sur le Quizz thème zelda !</h1>
-    <p class="p-3">Choisissez un thème pour commencer :</p>
+    <h1 class="text-7xl  text-red-900">Quizz thème zelda !</h1>
+    <p class="p-3 text-3xl">Choisissez un thème pour commencer :</p>
 
-    <button id="jouer" class="text-5xl  text-red-900 p-2">jouer</button>
+    <button id="jouer" class="text-5xl  text-red-900 p-2 ">jouer</button>
       <div id="choix" class="hidden">
-        <button name="theme" id="perso">Personnages</button>
+        <button name="theme" id="perso" class="text-5xl  text-red-900 p-2">Personnages</button>
 
-        <button name="theme" id="chrono">Chronologie</button>
+        <button name="theme" id="chrono" class="text-5xl  text-red-900 p-2">Chronologie</button>
 
-        <button name="theme" id="univers">Univers</button>
+        <button name="theme" id="univers" class="text-5xl  text-red-900 p-2">Univers</button>
       </div>
 
       <h2>scores</h2>
@@ -25,7 +25,14 @@
 <p>Univers : <span id="score-univers">-</span></p>
 <p>Chronologies : <span id="score-chronologies">-</span></p>
 
-    
+<audio class="hidden" id="audio" src="./ressource/tilte-theme-oot.mp3" type="audio/mp3" controls autoplay loop>
+</audio>
+<div>
+  <button id="player">I I</button>
+</div>
+<audio class="hidden" id="sound" src="./ressource/btn_ykTG4gdB.mp3" type="audio/mp3" controls>
+</audio>
+
     <script src="script.js"></script>
   </body>
 </html>
